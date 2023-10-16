@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;
+  background-color: #222;
+  padding: 20px 10px;
+  position: relative;
+  bottom: 0;
+}
+.cnpj{
+    background-color: #535353;
+    padding: 0 5px;
+    text-align: center;
+}

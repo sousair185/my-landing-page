@@ -1,0 +1,62 @@
+.menu-bar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(230, 230, 230);
+  background: linear-gradient(
+    0deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 10px 0;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #303030;
+  font-weight: 700;
+}
+
+.menu-item:hover {
+  color: #101742;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-item svg {
+  display: none;
+}
+
+.menu-item span {
+  display: inline;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-item svg {
+    display: inline;
+  }
+
+  .menu-item span {
+    display: none;
+  }
+}
+
+.whatsapp {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  background-color: #ddd;
+  border-radius: 45px;
+  padding: 3px;
+}
+.whatsapp span {
+  visibility: hidden;
+}
+.whatsapp:hover span {
+  visibility: visible;
+  bottom: 40px;
+  right: 80px;
+  padding: 8px;
+}
