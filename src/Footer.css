@@ -2,11 +2,34 @@
   width: 100vw;
   background-color: #222;
   padding: 20px 10px;
-  position: relative;
+  float: left;
   bottom: 0;
+  position: fixed;
 }
-.cnpj{
-    background-color: #535353;
-    padding: 0 5px;
+.coluna {
+  float: left;
+  width: 25%;
+  padding: 20px 0;
+  border-bottom: solid;
+  margin-bottom: 10px;
+}
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cnpj {
+  padding: 0 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .coluna {
+    width: 100%;
     text-align: center;
+  }
+  .footer {
+    position: static;
+  }
 }

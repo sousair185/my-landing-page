@@ -1,0 +1,21 @@
+.bloco-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: #000;
+  width: 90vw;
+}
+
+.bloco-titulo {
+  font-size: 2em;
+}
+
+.bloco-subtitulo {
+  font-size: 1.5em;
+}
+
+.bloco-conteudo {
+  color: rgb(103, 103, 103);
+  font-weight: 500;
+}
